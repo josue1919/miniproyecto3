@@ -93,56 +93,56 @@ function MostrarDadobot(puntajePlayer){
        switch(dado1){
     
                 case 1:
-                    img1.setAttribute("src", "/assets/cara1.png");
+                    img1.setAttribute("src", "./assets/cara1.png");
                         break;
                 case 2:
-                    img1.setAttribute("src", "/assets/cara2.png");
+                    img1.setAttribute("src", "./assets/cara2.png");
                     break;
                     case 3:
-                        img1.setAttribute("src", "/assets/cara3.png");
+                        img1.setAttribute("src", "./assets/cara3.png");
                 break;
     
                 case 4:
-                    img1.setAttribute("src", "/assets/cara4.png");
+                    img1.setAttribute("src", "./assets/cara4.png");
                 break;
     
                 case 5:
-                    img1.setAttribute("src", "/assets/cara5.png");
+                    img1.setAttribute("src", "./assets/cara5.png");
                 break;
     
                 case 6:
-                    img1.setAttribute("src", "/assets/cara6.png");
+                    img1.setAttribute("src", "./assets/cara6.png");
                 break;
             
                 default:
-                    img1.setAttribute("src", "/assets/cara1");
+                    img1.setAttribute("src", "./assets/cara1");
        }
        switch(dado2){
     
         case 1:
-            img2.setAttribute("src", "/assets/cara1.png");
+            img2.setAttribute("src", "./assets/cara1.png");
                 break;
         case 2:
-            img2.setAttribute("src", "/assets/cara2.png");
+            img2.setAttribute("src", "./assets/cara2.png");
             break;
             case 3:
-                img2.setAttribute("src", "/assets/cara3.png");
+                img2.setAttribute("src", "./assets/cara3.png");
         break;
     
         case 4:
-            img2.setAttribute("src", "/assets/cara4.png");
+            img2.setAttribute("src", "./assets/cara4.png");
         break;
     
         case 5:
-            img2.setAttribute("src", "/assets/cara5.png");
+            img2.setAttribute("src", "./assets/cara5.png");
         break;
     
         case 6:
-            img2.setAttribute("src", "/assets/cara6.png");
+            img2.setAttribute("src", "./assets/cara6.png");
         break;
     
         default:
-            img1.setAttribute("src", "/assets/cara1");
+            img1.setAttribute("src", "./assets/cara1");
     }
        
         puntajebot=dado1+dado2;
